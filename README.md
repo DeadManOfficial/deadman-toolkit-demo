@@ -1,73 +1,104 @@
+<div align="center">
+
+<br>
+
 # DeadMan Toolkit Demo
 
-Interactive visual demo of the DeadMan Toolkit ecosystem - **50 FREE AI Tools**.
+**Interactive Visual Demo — 50 FREE AI Tools**
 
-## Live Demo
+Watch all modules process data in real-time with live architecture diagrams.
 
-Visit: [deadman-toolkit.vercel.app](https://deadman-toolkit.vercel.app)
+<br>
+
+<a href="https://github.com/DeadManOfficial/deadman-toolkit-demo">
+  <img src="https://img.shields.io/badge/GitHub-Source-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://deadman-toolkit.vercel.app">
+  <img src="https://img.shields.io/badge/Live-Demo-00D4AA?style=for-the-badge" alt="Live Demo" />
+</a>
+<a href="https://nextjs.org">
+  <img src="https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+</a>
+
+<br><br>
+
+</div>
+
+---
 
 ## Features
 
-- **Interactive Pipeline Demo** - Watch all modules process data in real-time
-- **Architecture Diagram** - Visualize how modules connect and communicate
-- **Tools Explorer** - Browse all 50 MCP tools with search and filtering
-- **Module Cards** - Deep dive into each module's capabilities
+| Feature | Description |
+|---------|-------------|
+| **Pipeline Demo** | Watch modules process data in real-time |
+| **Architecture Diagram** | Visualize module connections |
+| **Tools Explorer** | Browse 50 MCP tools with search |
+| **Module Cards** | Deep dive into capabilities |
 
-## Modules Showcased
+---
+
+## Modules
 
 | Module | Tools | Description |
 |--------|-------|-------------|
-| Model Router | 4 | Intelligent routing across 10+ free LLM providers |
-| Content Guard | 3 | Safety guardrails and content validation |
-| Q-Star Agent | 4 | Reinforcement learning decision engine |
-| GraphRAG | 3 | Knowledge graph extraction and RAG |
+| Model Router | 4 | Route across 10+ free LLM providers |
+| Content Guard | 3 | Safety guardrails & validation |
+| Q-Star Agent | 4 | RL decision engine |
+| GraphRAG | 3 | Knowledge graph extraction |
 | SAFLA Memory | 5 | Multi-layer memory system |
 | Reasoning Engine | 4 | 13-block cognitive pipeline |
 | Unified Agents | 5 | Pre-built specialized agents |
 | LoRA Fine-Tuner | 4 | Parameter-efficient fine-tuning |
-| AutoGen | 4 | Multi-agent conversation patterns |
-| Graph Viz | 3 | Semantic graph visualization |
-| HyperTune | 3 | Response quality optimization |
-| Prompt Generator | 3 | AI persona and prompt templates |
 
-## Local Development
+---
+
+## Quick Start
 
 ```bash
-# Install dependencies
+git clone https://github.com/DeadManOfficial/deadman-toolkit-demo.git
+cd deadman-toolkit-demo
 npm install
-
-# Run development server
 npm run dev
-
-# Build for production
-npm run build
 ```
 
-## Deploy to Vercel
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
-
-Or click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/anthropics/claude-code)
+---
 
 ## Tech Stack
 
-- **Next.js 14** - React framework
-- **Tailwind CSS** - Styling
-- **Framer Motion** - Animations
-- **TypeScript** - Type safety
+`Next.js 14` `Tailwind CSS` `Framer Motion` `TypeScript`
 
-## Philosophy
+---
 
-**ALL FREE FOREVER** - Every tool works with free, open-source, or local LLMs. Zero API costs.
+## Related
+
+- **[mcp-auditor](https://github.com/DeadManOfficial/mcp-auditor)** — Security & compliance auditor for Claude
+- **[token-optimization](https://github.com/DeadManOfficial/token-optimization)** — Save 30-50% on API costs
+- **[claude-canvas](https://github.com/DeadManOfficial/claude-canvas)** — External monitor for Claude Code
+
+---
 
 ## License
 
 MIT
+
+---
+
+<div align="center">
+
+<br>
+
+<a href="https://twitter.com/DeadManAI">
+  <img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" />
+</a>
+<a href="https://youtube.com/@DeadManAI">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white" alt="YouTube" />
+</a>
+<a href="https://tiktok.com/@DeadManAI">
+  <img src="https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok" />
+</a>
+
+<br><br>
+
+<sub>**BUILD > BUY**</sub>
+
+</div>
