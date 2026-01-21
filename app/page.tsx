@@ -7,6 +7,7 @@ import ModuleCard from '@/components/ModuleCard';
 import PipelineDemo from '@/components/PipelineDemo';
 import LiveDemo from '@/components/LiveDemo';
 import ToolsGrid from '@/components/ToolsGrid';
+import SocialLinks from '@/components/SocialLinks';
 
 const MODULES = [
   {
@@ -322,18 +323,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Social Links Section */}
+      <SocialLinks variant="footer" showCTA={true} />
+
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-purple-500/20">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <span className="text-xl">💀</span>
             <span className="text-gray-400">DeadMan Toolkit v5.1</span>
           </div>
+          <SocialLinks variant="inline" />
           <div className="text-gray-500 text-sm">
             ALL FREE FOREVER
           </div>
         </div>
       </footer>
+
+      {/* Floating Social Links */}
+      <SocialLinks variant="floating" />
 
       {/* Module Detail Modal */}
       <AnimatePresence>
